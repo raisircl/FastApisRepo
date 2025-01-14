@@ -95,7 +95,14 @@ Add the remote repository URL to your local repository:
     git remote add origin https://github.com/raisircl/FastApisRepo
 
 Push your code to the GitHub repository:
-    git push -u origin master
-    
+    git push -u origin main
+
 Make sure to replace your-username and your-repository-name with your actual GitHub username and the name of the repository you created.
 #-----------------------------------------------------------------------------------------------#
+
+
+To update the remote repository URL in your local Git repository, you can use the following commands:
+
+Remove the incorrect remote URL:
+git remote remove origin
+
