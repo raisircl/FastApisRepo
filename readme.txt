@@ -76,6 +76,26 @@ Step 9# fastapi dev main.py
 
 #-----------------------------------------------------------------------------------------------#
 Step 10# Github Publish -- https://code.visualstudio.com/docs/sourcecontrol/overview
-    10.1 # git init 
 
+To publish your code to GitHub, follow these steps:
+
+Initialize a Git repository in your project directory:
+    git init
+Add your files to the repository:
+    git add .
+Commit your changes with a message:
+    git commit -m "Initial commit with FastAPI setup"
+Create a new repository on GitHub:
+
+Go to GitHub.
+Click on the "+" icon in the top right corner and select "New repository".
+Give your repository a name and click "Create repository".
+
+Add the remote repository URL to your local repository:
+    git remote add origin https://github.com/raisircl/FastApisRepo
+
+Push your code to the GitHub repository:
+    git push -u origin master
+    
+Make sure to replace your-username and your-repository-name with your actual GitHub username and the name of the repository you created.
 #-----------------------------------------------------------------------------------------------#
