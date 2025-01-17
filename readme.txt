@@ -2,7 +2,7 @@ Fast Apis Docs
 #Ref Url : https://fastapi.tiangolo.com/#opinions
 
 Step 1 # py -m venv endpvenv
-Step 2 # .\endpvenv\scripts\Activate.ps1 
+Step 2 # .\endpvenv\scripts\Activate.ps1
 Step 3 # 
 #-----------------------------------------------------------------#
 Typer, the FastAPI of CLIs  : Ref Url https://typer.tiangolo.com/
